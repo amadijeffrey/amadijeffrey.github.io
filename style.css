@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(71, 70, 70);
+    color:white;
+}
+img{
+    /* margin-right: 50%;
+    margin-left:40%;
+    margin-top: 10%; */
+    width:70%;
+    height: 70%;
+    border-radius: 150px;
+  
+}
+.slow{
+    border: 2px solid brown;
+    border-radius: 150px;
+    height:15%;
+    width:20%;
+    margin-top:10%;
+    margin-left: 60%;
+}
+span{
+    color:brown;
+}
+.col-sm-6{
+    margin-top: 50px;
+}
+h2{
+    text-align:center;
+}
+#ro{
+    height:20%;
+    width:20%;
+    background-color:  brown;
+
+}
+#skills{
+    background:brown ;
+}
+.group{
+    background:grey;
+    margin-top:10%;
+    width:100%;
+    padding-left: 2px;
+    box-shadow: 5px 5px 4px black;
+}
+li{
+    font-size: 20px;
+    color:rgb(99, 38, 38);
+}
+@media only screen and(min-width:992px){
+    div.group{width:50%;}
+}
+.btn{
+    background-color: brown;
+}
+.fa{
+    font-size: 30px;
+}
+footer{
+    margin-top: 40px;
+}
