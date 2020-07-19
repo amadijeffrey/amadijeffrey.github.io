@@ -40,7 +40,7 @@ h2{
 .group{
     background:grey;
     margin-top:10%;
-    width:100%;
+    width:50%;
     padding-left: 2px;
     box-shadow: 5px 5px 4px black;
 }
@@ -48,14 +48,17 @@ li{
     font-size: 20px;
     color:rgb(99, 38, 38);
 }
-@media only screen and(min-width:992px){
-    div.group{width:50%;}
+@media  screen and (max-width:425px){
+    h4{font-size:1rem;}
+    div.group{width:100%;}
 }
 .btn{
     background-color: brown;
 }
 .fa{
     font-size: 30px;
+    margin-left: 30px;
+    text-decoration: none;
 }
 footer{
     margin-top: 40px;
